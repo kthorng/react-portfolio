@@ -3,7 +3,7 @@ import { Row, Col } from "./Grid";
 import { Link } from "react-router-dom";
 
 
-const daWeekender = (props) => {
+const DaWeekender = (props) => {
   return (
     <div className="project-container">
       <br /><br /><br />
@@ -41,4 +41,4 @@ const daWeekender = (props) => {
     </div>
   );
 };
-export default daWeekender;
+export default DaWeekender;

@@ -2,9 +2,10 @@ import React from "react";
 import { Row, Col } from "./Grid";
 import { Link } from "react-router-dom";
 import { React_Bootstrap_Carousel as ReactCarousel } from "react-bootstrap-carousel";
+// import {Carousel} from 'react-bootstrap';
 
 
-const Carousel = (props) => {
+const CarouselMain = (props) => {
   return (
     <div className="carousel-container">
       <Row>
@@ -44,4 +45,4 @@ const Carousel = (props) => {
   );
 };
 
-export default Carousel;
+export default CarouselMain;
