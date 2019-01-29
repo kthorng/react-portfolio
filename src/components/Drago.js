@@ -20,7 +20,7 @@ const Drago = (props) => {
           </Row>
           <br />
           <Row>
-            <img style={{maxHeight: "500px"}} className="center-img" src="./images/clicky-ss.png" alt="drago" />
+            <img style={{maxHeight: "500px"}} className="center-img" src="https://kthorng.github.io/react-portfolio/images/clicky-ss.png" alt="drago" />
           </Row>
           <br />
           <Row>

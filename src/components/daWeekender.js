@@ -21,12 +21,12 @@ const daWeekender = (props) => {
               <br />
             </Col>
             <Col size="5">
-              <img style={{maxHeight: "400px"}} className="center-img" src="./images/theweekender_landing.png" alt="landing" />
+              <img style={{maxHeight: "400px"}} className="center-img" src="https://kthorng.github.io/react-portfolio/images/theweekender_landing.png" alt="landing" />
             </Col>
           </Row>
           <Row>
             <Col size="6">
-              <img style={{maxHeight: "650px"}} className="center-img" src="./images/theweekender_results.png" alt="results" />
+              <img style={{maxHeight: "650px"}} className="center-img" src="https://kthorng.github.io/react-portfolio/images/theweekender_results.png" alt="results" />
             </Col>
             <Col size="6">
               <br /><br />

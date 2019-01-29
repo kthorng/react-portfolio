@@ -17,11 +17,11 @@ const About = (props) => {
             <br />
             <Row>
               <ul>
-                <li><a href="mailto:kthorng@gmail.com?Subject=Saw%20your%20portfolio..." rel="noopener noreferrer"><img style={{maxHeight: "35px", verticalAlign: "bottom"}} src="../images/email_icon.png" alt="email" /> Email</a></li>
-                <li><a href="https://github.com/kthorng" target="_blank" rel="noopener noreferrer"><img style={{maxHeight: "35px", verticalAlign: "bottom"}} src="../images/github_icon.png" alt="github" /> Github</a></li>
-                <li><a href="https://www.linkedin.com/in/keo-thorng-6ab495168/" target="_blank" rel="noopener noreferrer"><img style={{maxHeight: "35px", verticalAlign: "bottom"}} src="../images/linkedin_icon.png" alt="linkedin" /> LinkedIn</a></li>
-                <li><a href="https://www.facebook.com/keo.thorng" target="_blank" rel="noopener noreferrer"><img style={{maxHeight: "35px", verticalAlign: "bottom"}} src="../images/facebook-icon.png" alt="facebook" /> Facebook</a></li>
-                <li><a href="https://www.instagram.com/king.ke0/" target="_blank" rel="noopener noreferrer"><img style={{maxHeight: "35px", verticalAlign: "bottom"}} src="../images/instagram_icon.png" alt="instagram" /> Instagram</a></li>
+                <li><a href="mailto:kthorng@gmail.com?Subject=Saw%20your%20portfolio..." rel="noopener noreferrer"><img style={{maxHeight: "35px", verticalAlign: "bottom"}} src="https://kthorng.github.io/react-portfolio/images/email_icon.png" alt="email" /> Email</a></li>
+                <li><a href="https://github.com/kthorng" target="_blank" rel="noopener noreferrer"><img style={{maxHeight: "35px", verticalAlign: "bottom"}} src="https://kthorng.github.io/react-portfolio/images/github_icon.png" alt="github" /> Github</a></li>
+                <li><a href="https://www.linkedin.com/in/keo-thorng-6ab495168/" target="_blank" rel="noopener noreferrer"><img style={{maxHeight: "35px", verticalAlign: "bottom"}} src="https://kthorng.github.io/react-portfolio/images/linkedin_icon.png" alt="linkedin" /> LinkedIn</a></li>
+                <li><a href="https://www.facebook.com/keo.thorng" target="_blank" rel="noopener noreferrer"><img style={{maxHeight: "35px", verticalAlign: "bottom"}} src="https://kthorng.github.io/react-portfolio/images/facebook-icon.png" alt="facebook" /> Facebook</a></li>
+                <li><a href="https://www.instagram.com/king.ke0/" target="_blank" rel="noopener noreferrer"><img style={{maxHeight: "35px", verticalAlign: "bottom"}} src="https://kthorng.github.io/react-portfolio/images/instagram_icon.png" alt="instagram" /> Instagram</a></li>
               </ul>
             </Row>
             <br /><br />

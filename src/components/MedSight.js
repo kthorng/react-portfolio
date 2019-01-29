@@ -20,7 +20,7 @@ const MedSight = (props) => {
           <br />
           <Row>
             <Col size="6">
-              <img style={{maxHeight: "400px"}} className="center-img" src="./images/clearcard.png" alt="start" />
+              <img style={{maxHeight: "400px"}} className="center-img" src="https://kthorng.github.io/react-portfolio/images/clearcard.png" alt="start" />
             </Col>
             <Col size="1"></Col>
             <Col size="5">
@@ -32,7 +32,7 @@ const MedSight = (props) => {
           </Row>
           <br />
           <Row>
-            <img style={{maxHeight: "400px"}} className="center-img" src="./images/cardstack.png" alt="card-saved" />
+            <img style={{maxHeight: "400px"}} className="center-img" src="https://kthorng.github.io/react-portfolio/images/cardstack.png" alt="card-saved" />
           </Row>
           <br /><br />
           <Row>
