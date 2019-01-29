@@ -12,7 +12,7 @@ const About = (props) => {
           <Col size="3">
             <br />
             <Row>
-              <img style={{maxHeight: "230px"}} src="../images/profile_1.png" alt="Keo Getting Pizza!" />
+              <img style={{maxHeight: "230px"}} src="https://kthorng.github.io/react-portfolio/images/profile_1.png" alt="Keo Getting Pizza!" />
             </Row>
             <br />
             <Row>
