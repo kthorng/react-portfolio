@@ -159,7 +159,7 @@
   
   .carousel-container {
     position: absolute;
-    width: 750px;
+    width: 100%;
     top: 40px;
     left: 0px;
   }

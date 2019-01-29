@@ -1,7 +1,9 @@
 import React from "react";
 import { Row, Col } from "./Grid";
 import { Link } from "react-router-dom";
-import { React_Bootstrap_Carousel as ReactCarousel } from "react-bootstrap-carousel";
+// import { React_Bootstrap_Carousel as ReactCarousel } from "react-bootstrap-carousel";
+import RBCarousel from "react-bootstrap-carousel";
+import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css"
 // import {Carousel} from 'react-bootstrap';
 
 
@@ -10,7 +12,7 @@ const CarouselMain = (props) => {
     <div className="carousel-container">
       <Row>
         <Col size="12">
-          <ReactCarousel
+          <RBCarousel
             animation={true}
             slideshowSpeed={3500}
             className="carousel-slide"
@@ -38,7 +40,7 @@ const CarouselMain = (props) => {
               <p>Web based memory game</p>
             </Link>
           </div>
-          </ReactCarousel>
+          </RBCarousel>
         </Col>
       </Row>
     </div>
