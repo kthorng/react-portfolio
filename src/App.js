@@ -42,11 +42,13 @@ class App extends Component {
             aboutMeOpen={this.state.aboutMeOpen}
             toggleAboutMe={this.toggleAboutMe}
           />
-          <Carousel/>
-          <Route exact path="/" />
+          {/* <Carousel/> */}
+          <div id="containerElement">
+          <Route exact path="/" component={Carousel} />
           <Route exact path="/medsight" component={MedSight} />
           <Route exact path="/weekender" component={daWeekender} />
           <Route exact path="/drago" component={Drago} />
+          </div>
         </div>
         <Footer/>
       </div>

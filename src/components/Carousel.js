@@ -10,7 +10,6 @@ import "../../node_modules/react-bootstrap-carousel/dist/react-bootstrap-carouse
 
 const Carousel = (props) => {
   return (
-    <div className="containerElement">
     <div className="carousel-container">
       <Row>
         <Col size="12" style={{ marginTop: 20 }}>
@@ -45,7 +44,6 @@ const Carousel = (props) => {
           </RBCarousel>
         </Col>
       </Row>
-    </div>
     </div>
   );
 };
