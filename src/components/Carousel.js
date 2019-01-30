@@ -3,12 +3,14 @@ import { Row, Col } from "./Grid";
 import { Link } from "react-router-dom";
 // import { React_Bootstrap_Carousel as ReactCarousel } from "react-bootstrap-carousel";
 import RBCarousel from "react-bootstrap-carousel";
-import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
+// import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
+import "../../node_modules/react-bootstrap-carousel/dist/react-bootstrap-carousel.css"
 // import {Carousel} from 'react-bootstrap';
 
 
 const Carousel = (props) => {
   return (
+    <div className="containerElement">
     <div className="carousel-container">
       <Row>
         <Col size="12" style={{ marginTop: 20 }}>
@@ -43,6 +45,7 @@ const Carousel = (props) => {
           </RBCarousel>
         </Col>
       </Row>
+    </div>
     </div>
   );
 };
