@@ -7,7 +7,7 @@ const MedSight = (props) => {
   return (
     <div className="project-container">
       <br /><br /><br />
-      <Link to="/">Back to Home</Link>
+      <Link to="/react-portfolio/">Back to Home</Link>
       <Row>
         <Col size="1"></Col>
         <Col size="10">
