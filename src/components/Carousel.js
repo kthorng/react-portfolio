@@ -3,7 +3,7 @@ import { Row, Col } from "./Grid";
 import { Link } from "react-router-dom";
 // import { React_Bootstrap_Carousel as ReactCarousel } from "react-bootstrap-carousel";
 import RBCarousel from "react-bootstrap-carousel";
-import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css"
+import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
 // import {Carousel} from 'react-bootstrap';
 
 
