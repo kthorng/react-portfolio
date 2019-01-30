@@ -11,7 +11,7 @@ const Carousel = (props) => {
   return (
     <div className="carousel-container">
       <Row>
-        <Col size="12">
+        <Col size="12" style={{ marginTop: 20 }}>
           <RBCarousel
             animation={true}
             slideshowSpeed={3500}

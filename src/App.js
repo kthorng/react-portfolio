@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Component } from 'react'
 import Particleground from "particleground-light";
 import Nav from "./components/Nav";
 import Carousel from "./components/Carousel";
@@ -10,7 +10,7 @@ import { Route } from "react-router-dom";
 import Footer from "./components/Footer"
 
 
-class App extends React.Component {
+class App extends Component {
 
   state = {
     aboutMeOpen: false
