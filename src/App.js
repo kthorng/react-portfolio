@@ -6,7 +6,6 @@ import daWeekender from "./components/daWeekender";
 import Drago from "./components/Drago";
 import MedSight from "./components/MedSight";
 import { Route } from "react-router-dom";
-// import Tracker from "./components/Tracker";
 import Footer from "./components/Footer"
 
 
@@ -42,13 +41,11 @@ class App extends Component {
             aboutMeOpen={this.state.aboutMeOpen}
             toggleAboutMe={this.toggleAboutMe}
           />
-          {/* <Carousel/> */}
-          <div id="containerElement">
-          <Route exact path="/" component={Carousel} />
+          <Carousel/>
+          <Route exact path="/"/>
           <Route exact path="/medsight" component={MedSight} />
           <Route exact path="/weekender" component={daWeekender} />
           <Route exact path="/drago" component={Drago} />
-          </div>
         </div>
         <Footer/>
       </div>
