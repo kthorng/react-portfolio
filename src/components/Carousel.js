@@ -7,7 +7,7 @@ import "react-bootstrap-carousel/dist/react-bootstrap-carousel.css";
 // import {Carousel} from 'react-bootstrap';
 
 
-const CarouselMain = (props) => {
+const Carousel = (props) => {
   return (
     <div className="carousel-container">
       <Row>
@@ -47,4 +47,4 @@ const CarouselMain = (props) => {
   );
 };
 
-export default CarouselMain;
+export default Carousel;
